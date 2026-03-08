@@ -1,7 +1,6 @@
-# apbreloaded
-insopti APB Reloaded Config
+# `insopti APB Reloaded Config + Windows Optimizations`
 
-# `Installation`
+# Installation
 Drag and drop the folders into your APB Reloaded main directory and replace everything when prompted to.
 
 For example, if you wish to install my graphics open the `Graphics` folder and drag and drop the `APBGame` folder into your own APB Reloaded main directory where your own `APBGame` folder is located but ***NOT inside `APBGame` itself!*** If Windows prompts you to replace files then you're doing it right. If not, check whether you are placing the files in the correct directory.
