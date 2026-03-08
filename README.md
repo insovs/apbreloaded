@@ -35,4 +35,36 @@ Example correct Target field path: <br >
 > [!NOTE]
 > In order to revert everything back to vanilla and start over, open the default APB launcher, click Options -> Repair and let it finish. Once that is done you may close the launcher and start over with modding your game.
 
-# `2` Windows Optimization for APB executable
+# `2` Windows Optimization for APB executable (Performance & Latency Optimization Toolkit)
+Ce script applique des réglages système pour **Valorant** afin d'améliorer les performances, réduire l'input delay et diminuer la latence réseau.  
+Une interface graphique simple vous permet de choisir les optimisations à appliquer. Tout est **sûr**, **efficace** et **entièrement réversible**.
+
+# Pour appliquer une/des optimisations
+Faites un **clic droit** sur le fichier `.ps1` → **"Exécuter avec PowerShell"**.  
+Le script demandera automatiquement les droits administrateur. si vous navez pas lautorisation dexcuter des script powershell activer cela via:
+
+# Optimisations disponibles
+Une fenêtre s'ouvrira avec des cases à cocher. Voici ce que fait chaque option en clair :
+
+| Option | Ce que ça fait |
+|---|---|
+| **All-in-One** | Applique tout d'un coup *(recommandé)* |
+| **CPU Priority** | Donne plus de ressources à Valorant pour qu'il tourne mieux |
+| **Network Optimization** | Réduit le ping et stabilise la connexion en jeu |
+| **GPU High Performance** | Force Windows à utiliser votre carte graphique à fond pour Valorant |
+| **RunAsAdmin** | Lance Valorant en administrateur pour éviter certains problèmes |
+| **Firewall** | Autorise Valorant dans le pare-feu pour éviter les coupures réseau |
+| **Defender Exclusion** | Empêche l'antivirus Windows de ralentir le jeu en arrière-plan |
+| **Remove all** | Supprime tout et remet Windows comme avant |
+
+> [!IMPORTANT]
+> Si le jeu refuse de se lancer après l'optimisation **RunAsAdmin**, cochez **"Remove all optimizations"** et cliquez Apply pour tout annuler.
+
+> [!NOTE]
+> Pour tout réinitialiser, cochez simplement **"Remove all optimizations"** puis cliquez sur **Apply**.
+
+---
+
+<p align="center">
+  <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a> | For personal use only.</sub>
+</p>
