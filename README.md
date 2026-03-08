@@ -54,11 +54,6 @@ Une fois cela fais, Une inteface graphique s'ouvrira avec des cases à cocher. V
 </details>
 
 
-
-
-
-
-
 | Option | Ce que ça fait |
 |---|---|
 | **All-in-One** | Applique tout d'un coup *(recommandé)* |
