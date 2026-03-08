@@ -1,51 +1,55 @@
-# inso APB Config + Windows Optimizations
-Cette configuration contient mes propres réglages pour **APB Reloaded**, inspirés de la configuration originale de Flaws. Elle vise à optimiser la performance et la réactivité in-game. un script afin d'optimiser lexecutable d'apb pour Windows vous est fourni si vous souhaitez.
+<h1 align="left"><code style="color:#4A9EFF">inso APB Config + Windows Optimizations</code></h1>
 
-## `1`. Windows Optimization for APB executable
-Ce script applique des réglages système pour **Valorant** afin d'améliorer les performances, réduire l'input delay et diminuer la latence réseau. Une interface graphique simple vous permet de choisir les optimisations à appliquer. Tout est **sûr**, **efficace** et **entièrement réversible**.
+This configuration contains my own settings for **APB Reloaded**, inspired by Flaws' original config. It aims to optimize in-game performance and responsiveness. A script to optimize the APB executable for Windows is also provided if you wish to use it.
 
-## Pour appliquer une/des optimisations
-Faites un **clic droit** sur le fichier `.ps1` → **"Exécuter avec PowerShell"**.  
-Le script demandera automatiquement les droits administrateur. si vous navez pas lautorisation dexcuter des script powershell activer cela via:
-Une fois cela fais, Une inteface graphique s'ouvrira avec des cases à cocher. Voici ce que fait chaque option en clair:
+# `1` Windows Optimization for APB Executable
+This script applies system tweaks for **APB Reloaded** to improve performance, reduce input delay, and lower network latency.  
+A simple graphical interface lets you choose which optimizations to apply. Everything is **safe**, **effective**, and **fully reversible**.
+
+## Applying Optimizations
+**Right-click** the `.ps1` file → **"Run with PowerShell"**.  
+The script will automatically request administrator privileges. If you don't have permission to run PowerShell scripts, enable it first via:
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+Once done, a graphical interface will open with checkboxes. Here is what each option does:
 
 <details>
-  <summary>Click here for an image example of the script (interface GUI)</summary>
+  <summary>Click here for an image example of the script (GUI interface)</summary>
   
 ![targetfield](https://i.imgur.com/tjbG35y.png)
 
 </details>
 
-| Option | Ce que ça fait |
+| Option | What it does |
 |---|---|
-| **All-in-One** | Applique tout d'un coup *(recommandé)* |
-| **CPU Priority** | Donne plus de ressources à APB pour qu'il tourne mieux |
-| **Network Optimization** | Réduit le ping et stabilise la connexion en jeu |
-| **GPU High Performance** | Configure en haute perfomances la carte pour APB |
-| **RunAsAdmin** | Lance APB en administrateur pour éviter certains problèmes |
-| **Firewall** | Autorise APB dans le pare-feu pour éviter les coupures réseau |
-| **Defender Exclusion** | Empêche l'antivirus Windows de ralentir le jeu en arrière-plan |
-| **Remove all** | Supprime tout et remet Windows comme avant |
+| **All-in-One** | Applies everything at once *(recommended)* |
+| **CPU Priority** | Gives more resources to APB so it runs better |
+| **Network Optimization** | Reduces ping and stabilizes the in-game connection |
+| **GPU High Performance** | Sets your GPU to high performance mode for APB |
+| **RunAsAdmin** | Launches APB as administrator to avoid certain issues |
+| **Firewall** | Allows APB through the firewall to prevent network drops |
+| **Defender Exclusion** | Prevents Windows Antivirus from slowing down the game in the background |
+| **Remove all** | Removes everything and restores Windows to its previous state |
 
 > [!IMPORTANT]
-> Si le jeu refuse de se lancer après l'optimisation **RunAsAdmin**, cochez **"Remove all optimizations"** et cliquez Apply pour tout annuler.
+> If the game refuses to launch after applying the **RunAsAdmin** optimization, check **"Remove all optimizations"** and click Apply to revert everything.
 
 > [!NOTE]
-> Pour tout réinitialiser, cochez simplement **"Remove all optimizations"** puis cliquez sur **Apply**.
+> To reset everything, simply check **"Remove all optimizations"** and click **Apply**.
 
 
-
-## `2`. Config / Installation
+# `2` Config / Installation
 Drag and drop the folders into your APB Reloaded main directory and replace everything when prompted to.
 
 For example, if you wish to install my graphics open the `Graphics` folder and drag and drop the `APBGame` folder into your own APB Reloaded main directory where your own `APBGame` folder is located but ***NOT inside `APBGame` itself!*** If Windows prompts you to replace files then you're doing it right. If not, check whether you are placing the files in the correct directory.
 
 The only config that requires one additional step is localization because you need to add the `-language=1031` launch argument to your shortcut in case you haven't already done that.
 
-# Launch arguments
-+ `-language=1031` - Sets game to load with custom localization (required for localization).
+## Launch Arguments
++ `-language=1031` - Sets the game to load with custom localization (required for localization).
 + `-nomovies` / `-nomoviesstartup` - Removes loading screens.
-+ `-nosplash` - Removes initial splash screen upon boot (GFAC logo cannot be removed).
++ `-nosplash` - Removes the initial splash screen on boot (the GFAC logo cannot be removed).
 + `-nosteam` - Disables Steam integration, including Steam auto-login.
 
 <details>
@@ -55,20 +59,19 @@ The only config that requires one additional step is localization because you ne
 
 </details>
 
-
-Example correct Target field path: <br >
+Example correct Target field path: <br>
 `"C:\Program Files (x86)\Steam\steamapps\common\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
-> [!CAUTION]
-> Be sure to add a space after the quotations and before the dash, as well as between each launch argument as shown in the examples.
 
-# Infos supp
+> [!CAUTION]
+> Make sure to add a space after the closing quotation mark and before each dash, as well as between each launch argument, as shown in the examples above.
+
+## Additional Info
 
 > [!IMPORTANT]
-> Whenever a game update comes out you must open the default APB launcher, let it update, then close the launcher, reinstall your desired configs and launch the game from your desktop shortcut. Do NOT create new APB shortcuts every time there is an update, it is unnecessary. Creating a shortcut of APB.exe is a single-time thing, you DON'T need to re-do it for updates/patches.
+> Whenever a game update is released, open the default APB launcher, let it update, then close the launcher, reinstall your desired configs and launch the game from your desktop shortcut. Do **NOT** create a new APB shortcut every time there is an update — it is unnecessary. Creating a shortcut to `APB.exe` is a one-time step, you do **not** need to redo it for updates or patches.
 
 > [!NOTE]
-> In order to revert everything back to vanilla and start over, open the default APB launcher, click Options -> Repair and let it finish. Once that is done you may close the launcher and start over with modding your game.
-
+> To revert everything back to vanilla and start fresh, open the default APB launcher, click **Options → Repair** and let it finish. Once done, you may close the launcher and start over with modding your game.
 
 ---
 
