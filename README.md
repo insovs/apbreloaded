@@ -3,7 +3,7 @@
 Cette configuration contient mes propres réglages pour **APB Reloaded**, inspirés de la configuration originale de Flaws.  
 Elle vise à optimiser la performance et la réactivité in-game. un script afin d'optimiser lexecutable d'apb pour Windows vous est fourni si vous souhaitez.
 
-# `1` > [!Installation]
+# `1` Installation
 Drag and drop the folders into your APB Reloaded main directory and replace everything when prompted to.
 
 For example, if you wish to install my graphics open the `Graphics` folder and drag and drop the `APBGame` folder into your own APB Reloaded main directory where your own `APBGame` folder is located but ***NOT inside `APBGame` itself!*** If Windows prompts you to replace files then you're doing it right. If not, check whether you are placing the files in the correct directory.
