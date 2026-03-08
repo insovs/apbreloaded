@@ -73,5 +73,5 @@ Une fois cela fais, Une inteface graphique s'ouvrira avec des cases à cocher. V
 ---
 
 <p align="center">
-  <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a> | For personal use only.</sub>
+  <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a></sub>
 </p>
