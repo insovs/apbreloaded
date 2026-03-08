@@ -56,11 +56,11 @@ Une fois cela fais, Une inteface graphique s'ouvrira avec des cases à cocher. V
 | Option | Ce que ça fait |
 |---|---|
 | **All-in-One** | Applique tout d'un coup *(recommandé)* |
-| **CPU Priority** | Donne plus de ressources à Valorant pour qu'il tourne mieux |
+| **CPU Priority** | Donne plus de ressources à APB pour qu'il tourne mieux |
 | **Network Optimization** | Réduit le ping et stabilise la connexion en jeu |
-| **GPU High Performance** | Force Windows à utiliser votre carte graphique à fond pour Valorant |
-| **RunAsAdmin** | Lance Valorant en administrateur pour éviter certains problèmes |
-| **Firewall** | Autorise Valorant dans le pare-feu pour éviter les coupures réseau |
+| **GPU High Performance** | Configure en haute perfomances la carte pour APB |
+| **RunAsAdmin** | Lance APB en administrateur pour éviter certains problèmes |
+| **Firewall** | Autorise APB dans le pare-feu pour éviter les coupures réseau |
 | **Defender Exclusion** | Empêche l'antivirus Windows de ralentir le jeu en arrière-plan |
 | **Remove all** | Supprime tout et remet Windows comme avant |
 
