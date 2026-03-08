@@ -1,5 +1,4 @@
-<h1 align="left"><code style="color:#4A9EFF">inso APB Config + Windows Optimizations</code></h1>
-
+# inso APB Config + Windows Optimization
 This configuration contains my own settings for **APB Reloaded**, inspired by Flaws' original config. It aims to optimize in-game performance and responsiveness. A script to optimize the APB executable for Windows is also provided if you wish to use it.
 
 # `1` Windows Optimization for APB Executable
