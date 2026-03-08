@@ -1,6 +1,5 @@
 # inso APB Config + Windows Optimizations
-Cette configuration contient mes propres réglages pour **APB Reloaded**, inspirés de la configuration originale de Flaws.  
-Elle vise à optimiser la performance et la réactivité in-game. un script afin d'optimiser lexecutable d'apb pour Windows vous est fourni si vous souhaitez.
+Cette configuration contient mes propres réglages pour **APB Reloaded**, inspirés de la configuration originale de Flaws. Elle vise à optimiser la performance et la réactivité in-game. un script afin d'optimiser lexecutable d'apb pour Windows vous est fourni si vous souhaitez.
 
 # `1` Installation
 Drag and drop the folders into your APB Reloaded main directory and replace everything when prompted to.
